@@ -1,0 +1,276 @@
+body{
+    background: #333;
+}
+
+.centraliza{
+    
+    margin: 0 auto;
+    position: relative;
+    width: 800px;
+    height: 900px;
+    background: #e8e8e8;
+    
+}
+
+#bg{
+    width: 659px;
+    height: 677px;
+    position: absolute;
+    z-index: 0;
+    opacity: 0.4;
+    margin: 80px 0 0 75px;
+}
+
+.barba{
+    background: #D1B271;
+    border: 5px solid #333333;
+    border-radius: 62%;
+    height: 232px;
+    margin: 481px 0 0 251px;
+    position: absolute;
+    width: 279px;
+    z-index: 1;
+}
+
+.boca{
+    background: #333;
+    border-radius: 45% 45% 45% 45%;
+    height: 79px;
+    margin: 123px 0 0 42px;
+    width: 200px;
+    position: absolute;
+    z-index: 1;
+}
+
+.curva_boca{
+    background: #D1B271;
+    border-radius: 46% 46% 46% 46%;
+    border-top: 5px solid #333333;
+    height: 35px;
+    margin: 175px 0 0 72px;
+    position: absolute;
+    width: 137px;
+    z-index: 2;
+}
+
+.nariz{
+    background: #FDD80D;
+    border-color: #FDD80D #333333 #333333;
+    border-radius: 74% 74% 74% 74%;
+    border-style: solid;
+    border-width: 5px;
+    height: 76px;
+    margin: 414px 0 0 355px;
+    position: absolute;
+    width: 74px;
+    z-index: 3;
+}
+
+.head{
+    background: #fdd80d;   
+    border-left: 5px solid #333333;
+    border-radius: 35% 35% 30% 28%;
+    border-right: 5px solid #333333;
+    border-top: 5px solid #333333;
+    height: 500px;
+    margin: 137px 0 0 244px;
+    position: absolute;
+    width: 297px;
+    z-index: 0;
+}
+
+.olho_esq{
+    background: #fff;
+    border: 5px solid #333333;
+    border-radius: 50% 50% 50% 50%;
+    height: 131px;
+    margin: 330px 0 0 242px;
+    position: absolute;
+    width: 131px;
+    z-index: 4;
+}
+
+.olho_dir{
+    background: #fff;
+    border: 5px solid #333333;
+    border-radius: 50% 50% 50% 50%;
+    height: 131px;
+    margin: 330px 0 0 412px;
+    position: absolute;
+    width: 131px;
+    z-index: 4;
+}
+
+.curva1{
+    background: #FDD80D;
+    border-left: 5px solid #333333;
+    border-radius: 51% 51% 51% 51%;
+    border-right: 5px solid #333333;
+    height: 115px;
+    margin: 289px 0 0 237px;
+    position: absolute;
+    width: 310px;
+    z-index: 3;
+}
+
+.pele1{
+    background: #FDD80D;
+    border-radius: 39% 39% 39% 39%;
+    height: 115px;
+    margin: 276px 0 0 249px;
+    position: absolute;
+    width: 297px;
+    z-index: 3;
+}
+
+.pupila1{
+    background: #000000;
+    border-radius: 60% 60% 60% 60%;
+    height: 25px;
+    margin: 43px 0 0 42px;
+    width: 25px;
+}
+
+.pupila2{
+    background: #000000;
+    border-radius: 60% 60% 60% 60%;
+    height: 25px;
+    margin: 43px 0 0 62px;
+    width: 25px;
+}
+
+.cabelo1{
+    background: transparent;
+    border-radius: 50% 50% 50% 50%;
+    border-top: 5px solid #333333;
+    height: 96px;
+    margin: 109px 0 0 340px;
+    position: absolute;
+    width: 120px;
+}
+
+.cabelo2{
+    background: transparent;
+    border-radius: 50% 50% 50% 50%;
+    border-top: 5px solid #333333;
+    height: 166px;
+    margin: 88px 0 0 316px;
+    position: absolute;
+    width: 166px;
+}
+
+.curva2{
+    background: transparent;
+    border-bottom: 5px solid #333333;
+    border-radius: 43% 43% 43% 43%;
+    height: 50px;
+    margin: 428px 0 0 271px;
+    position: absolute;
+    transform: rotate(-12deg);
+    -webkit-transform: rotate(-12deg);
+    width: 78px;
+}
+
+.curva3{
+    background: transparent;
+    border-bottom: 5px solid #333333;
+    border-radius: 43% 43% 43% 43%;
+    height: 50px;
+    margin: 428px 0 0 445px;
+    position: absolute;
+    transform: rotate(12deg);
+    -webkit-transform: rotate(12deg);
+    width: 78px;
+}
+
+.orelha_esq{
+    background: #FDD80D;
+    border-left: 5px solid #333333;
+    border-radius: 44% 38% 32% 51%;
+    border-right: 5px solid #FDD80D;
+    border-top: 5px solid #333333;
+    border-bottom: 5px solid #333333;
+    height: 65px;
+    margin: 457px 0 0 221px;
+    position: absolute;
+    width: 35px;
+}
+
+.traço1{
+    background: #FDD80D;
+    border-left: 5px solid #FDD80D;
+    border-radius: 55% 55% 55% 55%;
+    border-right: 5px solid #FDD80D;
+    border-top: 5px solid #333333;
+    height: 14px;
+    margin: 19px 0 0;
+    transform: rotate(50deg);
+    -webkit-transform: rotate(50deg);
+    width: 23px;
+    position: absolute;
+    z-index: 6;
+}
+
+.traço2{
+    background: #FDD80D;
+    border-bottom: 5px solid #333333;
+    border-left: 5px solid #FDD80D;
+    border-radius: 55% 55% 55% 55%;
+    border-right: 5px solid #FDD80D;
+    height: 14px;
+    margin: 20px 0 0;
+    transform: rotate(235deg);
+    -webkit-transform: rotate(235deg);
+    width: 23px;
+}
+
+.orelha_dir{
+    background: #FDD80D;
+    border-left: 5px solid #333333;
+    border-radius: 51% 38% 32% 58%;
+    border-right: 5px solid #FDD80D;
+    border-top: 5px solid #333333;
+    border-bottom: 5px solid #333333;
+    height: 69px;
+    margin: 457px 0 0 530px;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    position: absolute;
+    width: 35px;
+}
+
+.pescoço{
+    background: #FDD80D;
+    border-left: 5px solid #333333;
+    border-right: 5px solid #333333;
+    height: 159px;
+    margin: 597px 0 0 277px;
+    position: absolute;
+    width: 234px;
+}
+
+.l1{
+    background: #b92905;
+    border-radius: 50% 50% 50% 50%;
+    height: 90px;
+    margin: 20px 0 0 68px;
+    position: absolute;
+    transform: rotate(74deg);
+    -webkit-transform: rotate(74deg);
+    width: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
